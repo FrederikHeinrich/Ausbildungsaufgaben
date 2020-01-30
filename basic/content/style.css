@@ -1,0 +1,185 @@
+body {
+  display: block;
+  margin: 0px;
+}
+
+header > headtitle{
+  background-color: gray;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  height: 8vh;
+  text-align: right;
+  color: white;
+}
+
+header > nav {
+  color: white;
+  background-color: gray;
+  top: 8vh;
+  bottom: 0;
+  width: 20vw;
+  position: fixed;
+  padding: 0.5em;
+}
+header > nav  a:link{
+  color: white;
+}
+header > nav  a:active{
+  color: white;
+}
+header > nav  a:visited{
+  color: white;
+}
+header > nav  a:checked{
+  color: white;
+}
+header > nav  a:hover{
+  color: white;
+  text-decoration-line: underline;
+}
+header > nav  a:link{
+  text-decoration-line: none;
+}
+
+content{
+  padding: 0.5em;
+  top: 8vh;
+  left: 20vw;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  color: black;
+  background-color: turquoise;
+}
+.content{
+  padding: 0.5em;
+  top: 8vh;
+  left: 20vw;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+content p {
+  color: black;
+}
+
+content p.left {
+  text-align: left;
+}
+
+content p.right {
+  text-align: right;
+}
+
+content p.center {
+  text-align: center;
+}
+
+content > linien > hr.full {
+  width: 95%;
+}
+content > linien > hr.small {
+  width: 20vw;
+}
+content > linien > hr.middle {
+  width: 40vw;
+}
+content > linien > hr.height2 {
+  height: 2px;
+}
+content > linien > hr.height20 {
+  height: 20px;
+}
+content > linien > hr.left {
+  margin-left: 0;
+}
+content > linien > hr.right {
+  margin-right: 0;
+}
+
+content > listen > ul.normal {
+  list-style-type: unset;
+}
+content > listen > ul.bloxs {
+  list-style-type: square;
+}
+content > listen > ul.emptydots {
+  list-style-type: circle;
+}
+content > listen > ul.numbers {
+  list-style-type: decimal;
+}
+
+content > farben > p.white {
+  color: white;
+}
+
+content > farben > p.green {
+  color: green;
+}
+
+content > farben > p.red {
+  color: red;
+}
+
+content > farben > p.blue {
+  color: blue;
+}
+
+content > farben > p.black {
+  color: black;
+}
+
+content > colspanundrowspan > table {
+  table-layout: auto;
+  border: 3px solid darkred;
+  background-color: yellow;
+}
+content > colspanundrowspan {
+  background-color: yellow;
+}
+
+content > colspanundrowspan {
+  background-color: yellow;
+}
+
+content > colspanundrowspan th, content > colspanundrowspan td {
+  border: 1px solid red;
+  color: red;
+}
+
+content > bilder img {
+    border: 10px solid yellow;
+    width: 20vh;
+}
+content > bilder img p{
+    float: left;
+}
+
+content > bilder bild p{
+  color: yellow;
+}
+content > bilder bild.ersteente{
+  
+}
+content > bilder bild.zweiteente{
+}
+content > bilder bild.dritteente{
+  position: absolute;
+  right: 0;
+}
+content > bilder bild.dirtteente p {
+  float: right;
+}
+downloadme {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+  z-index: 99999;
+}
+downloadme img{
+  height: 5vh;
+}
