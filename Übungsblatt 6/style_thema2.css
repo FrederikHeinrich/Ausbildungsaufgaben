@@ -1,0 +1,23 @@
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+troll {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+    
+}
+
+a{
+    background-image: repeating-linear-gradient(90deg, green, rgba(0, 0, 0, 0), green, rgba(0, 0, 0, 0), green, rgba(0, 0, 0, 0), green, rgba(0, 0, 0, 0));
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 0.1s ease infinite;
+}
+

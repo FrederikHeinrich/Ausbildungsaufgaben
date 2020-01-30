@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#navigation {
+    position: fixed;
+    right: 15vw;
+    left: 15vw;
+    top: 1vh;
+    height: 5vh;
+    background-color: rgb(180, 0, 0);
+    float: both;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#navigation li {
+    float: left;
+}
+
+#navigation a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navigation a:hover {
+  background-color: rgb(150, 0, 0);
+}
+
+#navigation a:any-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+#content{
+    display: flex;
+    position: fixed;
+    right: 15vw;
+    left: 15vw;
+    top: 8vh;
+    bottom: 8vh;
+    background-color: rgb(255, 255, 255,0.80);
+    float: both;
+}
+
+#content h1{
+    margin: 10px;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+#content h2{
+    margin: 10px;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+#content p {
+    margin: 10px;
+}
+
+#content a:any-link{
+    color: red;
+    text-decoration: none;
+}
+
+#images p {
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+#images img{
+    margin: 10px;
+}
+downloadme {
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+  z-index: 99999;
+}
+downloadme img{
+  height: 5vh;
+}
+

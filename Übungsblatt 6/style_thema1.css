@@ -1,0 +1,13 @@
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+p, h1, h2, a {
+    background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    background-size: 10000% 10000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 10s ease infinite;
+}
+
