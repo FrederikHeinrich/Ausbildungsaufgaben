@@ -68,7 +68,6 @@ html, body {
 #topnavigation li {
     background-color: var(--main-bg-color);
     display: inline;
-    float: left;
     display: inline-block;
     float: none;
     vertical-align: top;
